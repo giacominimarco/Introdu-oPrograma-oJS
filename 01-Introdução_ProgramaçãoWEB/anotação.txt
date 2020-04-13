@@ -1,0 +1,38 @@
+// Com aspas simples
+const name1 = 'Marco';
+
+// Com aspas duplas
+const name2 = "Marco";
+
+// Com crase, Nome > Template String - serve para adicionar variaveia a string
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings
+const name3 = `Marco e ${name1}`; 
+
+-------------------------------------------
+
+# limite de 2 casas decimasi
+
+(media.toFixed(2)); 
+
+-------------------------------------------
+
+# Objetos em JavaScript:
+
+const variavel = {
+    elemento1: "name",
+    elemento2: 18
+}
+
+# Array de Objetos:
+
+const alunos = [
+    {
+        nome: "name",
+        nota: 18
+    },
+    {
+        nome: "name",
+        nota: 18
+    }
+    
+]
